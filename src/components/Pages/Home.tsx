@@ -5,9 +5,9 @@ import Organisms from 'components/Organisms';
 
 function Home(){
     return(
-        <Atoms.Div display='flex' flexDirection='column' width="100vw" height="100vh">
+        <Atoms.Div display='flex' flexDirection='column'>
             <Template.Header />
-            <Atoms.Div display='flex' padding="32px" justifyContent='center' alignItems='center' width="100%" height="calc(100% - 77px)">
+            <Atoms.Div display='flex' padding="32px" justifyContent='center' alignItems='center'>
                 <Organisms.Home />
             </Atoms.Div>
         </Atoms.Div>
