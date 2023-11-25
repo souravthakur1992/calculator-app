@@ -64,7 +64,7 @@ function Home() {
 
     };
     return (
-        <Atoms.Div width="800px" height="600px" border="1px solid #eaeaea" padding="32px" borderRadius="8px"
+        <Atoms.Div max-width="800px" height="600px"  border="1px solid #eaeaea" padding="32px" borderRadius="8px"
                    boxShadow='0px 4px 4px rgba(51, 51, 51, 0.04), 0px 4px 16px rgba(51, 51, 51, 0.08)'>
             <Atoms.Div display="flex" flexDirection='column' justifyContent='center' alignItems='center' width="100%"
                        height="100%">
