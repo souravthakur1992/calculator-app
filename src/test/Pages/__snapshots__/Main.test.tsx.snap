@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot test for Home page Matches DOM Snapshot 1`] = `
+<div
+  className="sc-bgqQcB iJyUKE"
+  display="flex"
+>
+  <div
+    className="sc-bgqQcB gcCEJg"
+    display="flex"
+    height="76px"
+    width="calc(100% - 24px)"
+  >
+    <div
+      className="sc-bgqQcB glEEYE"
+      display="flex"
+    >
+      <div
+        className="sc-bgqQcB jegIso"
+        display="flex"
+        height="50px"
+        width="50px"
+      >
+        <div />
+      </div>
+      <span
+        className="sc-gTRrQi kNNORz"
+        fontFamily="Montserrat"
+        fontSize="24px"
+        fontWeight="700"
+      >
+        CALCULATOR APP
+      </span>
+    </div>
+  </div>
+  <div
+    className="sc-bgqQcB PJhlA"
+    display="flex"
+  >
+    <div
+      className="sc-bgqQcB iyWsvV"
+    >
+      <div
+        className="sc-bgqQcB eCkknC"
+        display="flex"
+        height="100%"
+        width="100%"
+      >
+        <div
+          className="sc-bgqQcB bRiYAl"
+          display="flex"
+        >
+          <span
+            className="sc-gTRrQi ghqOhS"
+            fontFamily="Montserrat"
+            fontSize="32px"
+            fontWeight="700"
+          >
+            CALCULATOR REACT APP
+          </span>
+        </div>
+        <form
+          onSubmit={[Function]}
+        >
+          <div
+            className="sc-bgqQcB cbMStY"
+            display="flex"
+            width="100%"
+          >
+            <div
+              className="sc-bgqQcB bmduCb"
+              display="flex"
+              width="125px"
+            >
+              <input
+                className="sc-dicizt fufbmn"
+                name="num1"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onKeyUp={[Function]}
+                placeholder="Number 1"
+                step="any"
+                type="number"
+                value=""
+                width="125px"
+              />
+            </div>
+            <div
+              className="sc-bgqQcB bmduCb"
+              display="flex"
+              width="125px"
+            >
+              <input
+                className="sc-dicizt fufbmn"
+                name="num2"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onKeyUp={[Function]}
+                placeholder="Number 2"
+                step="any"
+                type="number"
+                value=""
+                width="125px"
+              />
+            </div>
+            <div
+              className="sc-bgqQcB gXpjif"
+              display="flex"
+              width="200px"
+            >
+              <select
+                className="sc-iVCKna fBHkMa"
+                name="operator"
+                onBlur={[Function]}
+                onChange={[Function]}
+                value=""
+                width="200px"
+              >
+                <option
+                  value=""
+                >
+                  Select an operator…
+                </option>
+                <option
+                  value="+"
+                >
+                  ADD
+                </option>
+                <option
+                  value="-"
+                >
+                  SUBTRACT
+                </option>
+                <option
+                  value="*"
+                >
+                  MULTIPLY
+                </option>
+                <option
+                  value="/"
+                >
+                  DIVIDE
+                </option>
+              </select>
+            </div>
+            <div
+              className="sc-bgqQcB fbePWa"
+              display="flex"
+              width="250px"
+            >
+              <input
+                className="sc-dicizt likbKM"
+                disabled={true}
+                fontFamily="monospace"
+                fontSize="1rem"
+                fontWeight="700"
+                placeholder="Press Calculate For Answer"
+                value=""
+                width="250px"
+              />
+            </div>
+          </div>
+          <div
+            className="sc-bgqQcB bAttSk"
+            display="flex"
+            width="100%"
+          >
+            <button
+              className="sc-fFGjHI jncEbr"
+              color="#ffffff"
+              fontFamily="Roboto"
+              fontSize="1rem"
+              fontWeight="400"
+              height="44px"
+              type="submit"
+              width="410px"
+            >
+              CALCULATE
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
